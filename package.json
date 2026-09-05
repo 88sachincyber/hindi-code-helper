@@ -5,6 +5,10 @@
   "description": "Simple Hindi/Hinglish explanations for Java built-in functions, methods and classes.",
   "publisher": "sachin-yadav",
   "icon": "images/logo.png",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/88sachincyber/hindi-code-helper.git"
+  },
   "engines": {
     "vscode": "^1.136.0"
   },
