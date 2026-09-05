@@ -1,0 +1,48 @@
+{
+  "name": "hindi-code-helper",
+  "displayName": "HindiCode Helper",
+  "version": "1.0.0",
+  "description": "Simple Hindi/Hinglish explanations for Java built-in functions, methods and classes.",
+  "publisher": "sachin-yadav",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.136.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Education"
+  ],
+  "activationEvents": [
+    "onLanguage:java"
+  ],
+  "main": "./out/extension.js",
+   "contributes": {
+    "languages": [
+      {
+        "id": "java",
+        "aliases": [
+          "Java"
+        ],
+        "extensions": [
+          ".java"
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@types/vscode": "^1.136.0",
+    "@vscode/vsce": "^3.9.2",
+    "typescript": "^7.0.2"
+  }
+}
